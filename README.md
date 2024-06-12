@@ -2,7 +2,7 @@
 
 Making green your Github stats, powered by [Github Actions](https://github.com/features/actions)
 
-[![Auto Commit](https://github.com/zethdevs/Memek/actions/workflows/abuser.yml/badge.svg)](https://github.com/zethdevs/Memek/actions/workflows/abuser.yml)
+[![Auto Commit](https://github.com/zethdevs/Go-Green-/actions/workflows/abuser.yml/badge.svg)](https://github.com/zethdevs/Go-Green-/actions/workflows/abuser.yml)
 
 ## Make it your own
 
