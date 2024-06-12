@@ -1,0 +1,18 @@
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+
+jobs:
+  abuse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          date > last-commit
+          git config user.name ${{ vars.USER_NAME }}
+          git config user.email ${{ vars.USER_EMAIL }}
+          git add .
+          git commit -m "🌱 Penghijauan"
+          git push
